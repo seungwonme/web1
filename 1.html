@@ -3,6 +3,19 @@
 <head>
 <title>WEB1 - HTML</title>
 <meta charset="utf-8">
+<script async src="https://www.googletagmanager.com/gtag/js?id=MEASUREMENT_ID"></script>
+
+<script>
+
+window.dataLayer = window.dataLayer || [];
+
+function gtag(){dataLayer.push(arguments);}
+
+gtag('js', new Date());
+
+gtag('config', 'MEASUREMENT_ID');
+
+</script>
 </head>
 <body>
     <h1><a href="index.html">WEB</a></h1>
@@ -12,6 +25,9 @@
 <li><a href="3.html">JavaScript</a></li>
 </ol>
 <h2>HTML이란 무엇인가?</h2>
+<p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FhKh-lj9qtg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
 <img src="html.png" width="100px">
 <p><a href="https://www.w3.org/TR/2011/WD-html5-20110405/" target="_blank" title="HTML5 specification">HyperText Mark-up Language</a><br>
 웹 페이지의 모습을 기술하기 위한 규약. 프로그래밍 언어가 아니라 마크업 언어다. 헷갈리지 않도록 하자. 웹사이트에서 흔히 볼 수 있는 htm이나 html 확장자가 바로 이 언어로 작성된 문서다.</p>
@@ -19,6 +35,42 @@
 그런데 태그 종류가 수십 가지가 넘는 데다, 지정가능한 옵션까지 일일이 열거하면 책 한 권 분량이 된다. 따라서 일반인은 사용빈도가 높은 일부 태그만 암기하고, 나머지는 '태그사전(또는 레퍼런스)'이라고 하는 도움말 파일을 참고하는 편이다. 물론 암기 범위는 고급 사용자 내지는 프로페셔널(흔히 웹 퍼블리셔라고 하는 사람들)로 갈수록 넓어진다. <br>
 태그는 HTML의 근간이기 때문에, HTML 기반 채팅 프로그램에서도 사용할 수 있다. 대표적인 예가 cafe24 채팅. 다만 보안상 문제와 수많은 테러 때문에 현재는 대부분의 태그를 막고, 일부 태그만 허용하는 상태. 그림 삽입이나 페이지 링크, 음악 삽입, marquee 정도가 허용된다. 대부분의 PHP 기반 웹 게시판에서도 원칙적으로 글 제목과 내용에 태그를 적용시킬 수 있다.<br>
 다만 채팅과 같은 이유로 그 사용을 제한하는 경우가 많다. 특히 제목 부분에는 어떤 태그도 허용하지 않는 것이 일반적.
+</p>
+<p>
+    <div id="disqus_thread"></div>
+    <script>
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://web1-mjxrcjldla.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</p>
+<p>
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/629cc1a7b0d10b6f3e75c7fd/1g4q58tu2';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
 </p>
 </body>
 </html>
